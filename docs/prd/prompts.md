@@ -141,34 +141,4 @@ el alcance y no alcance lo veo bien, solo quitaría la posibilidad de eliminar t
 
 **Qué salió:** aplicó el cambio (archivar en alcance, borrado definitivo al NO-alcance, supuesto S9) y escribió `docs/prd/alcance-mvp-mp.md` con las líneas 2 y 3 pendientes.
 
-## Prompt 8
 
-**Modelo:** Opus 5.5
-**Herramienta:** Claude Code
-
-```
-No deje cosas afuera, no veo nada que no tuviera que estar en un mvp
-La exclusión que deje pero menos seguro estoy de dejarla para en mvp es web compatible con movil
-```
-
-**Qué salió:** registró las respuestas tal cual, pero señaló dos incoherencias: la línea 2 niega un recorte que sí hice (borrado) y la línea 3 nombra algo que está dentro (S12), no fuera.
-
-## Prompt 9
-
-**Modelo:** Opus 5.5
-**Herramienta:** Claude Code
-
-```
-corregi la linea 2 en la linea 3 completa que lo que no estoy seguro que quede fuera es el bloqueo de edición simultanea
-```
-
-**Qué salió:** corrigió la línea 2 (un solo recorte propio: el borrado; el resto aceptado) y redactó la 3 sobre el bloqueo de edición simultánea, con la contradicción y la condición para que entre. Avisó de que la línea 2 queda con una cosa, no tres.
-
-## Prompt 10
-
-**Modelo:** Opus 5.5
-**Herramienta:** Claude Code
-
-```
-si, mandalo agrega @docs/prd/prompts.md al PR
-```
